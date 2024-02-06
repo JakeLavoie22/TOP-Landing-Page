@@ -1,0 +1,52 @@
+body{
+    font-style: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px 100px;
+    border-radius: 10px;
+
+}
+
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    padding: 10px;
+}
+
+.herc-container1{
+    display: flex;
+    
+}
+
+
+.hero-img{
+    max-width: 300px ;
+    border-radius: 10px;
+}
