@@ -20,6 +20,8 @@ a{
     display: flex;
     flex-direction: column;
     padding: 10px 180px;
+    background-image: url("./images/Tahoe_lake.jpeg");
+    background-size: 100vw 100vh;
 }
 
 .header{
@@ -57,7 +59,12 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 30px;
     flex: none;
+    background-color: #1F2937;;
+    opacity: .9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px #1f293788;
 }
 
 .cont-title{
@@ -72,6 +79,7 @@ li{
 .hero-img{
     border-radius: 10px;
     height: 250px;
+    box-shadow: 4px 4px 4px 4px #1f293788;
 }
 
 button{
